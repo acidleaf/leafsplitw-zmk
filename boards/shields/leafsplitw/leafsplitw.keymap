@@ -1,0 +1,13 @@
+/ {
+	keymap {
+		compatible = "zmk,keymap";
+
+		default_layer {
+			bindings = <
+				&kp Q   &kp W   &kp E	&kp Y	&kp U	&kp I
+				&kp A   &kp S   &kp D	&kp H	&kp J	&kp K
+				&kp Z   &kp X   &kp C	&kp N	&kp M	&kp DOT
+			>;
+		}
+	}
+}

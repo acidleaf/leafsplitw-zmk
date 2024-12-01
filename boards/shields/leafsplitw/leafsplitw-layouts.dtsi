@@ -9,7 +9,7 @@
     leafsplitw_position_map {
         compatible = "zmk,physical-layout-position-map";
         complete;
-
+        
         twelve {
             physical-layout = <&physical_layout0>;
             positions = 

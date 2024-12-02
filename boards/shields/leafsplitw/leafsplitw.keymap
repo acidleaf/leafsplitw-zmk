@@ -5,7 +5,7 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		default_layer {
+		base {
 			display-name = "Base";
 			
 			bindings = <
@@ -35,5 +35,9 @@
 										  &trans  &trans  &trans      &trans     &trans    &trans
 			>;
 		};
+		
+		extra1 {
+			status = "reserved";
+		}
 	};
 };

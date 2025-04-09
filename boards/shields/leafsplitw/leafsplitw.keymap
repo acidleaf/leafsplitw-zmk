@@ -19,10 +19,10 @@
 		lower {
 			display-name = "Lower";
 			bindings = <
-				&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4    &kp N5         &kp N6     &kp N7    &kp N8    &kp N9	&kp N0    &kp DEL
-				&kp TILDE  &none   &kp LBRC  &kp LBKT  &kp LPAR  &kp MINUS      &kp EQUAL  &kp RPAR  &kp RBKT  &kp RBRC	&kp BSLH  &kp PIPE
-				&none      &none   &none     &none     &none     &kp UNDER      &kp PLUS   &none     &trans    &trans	&trans    &trans
-											 &kp LGUI  &trans    &trans         &trans     &trans    &kp C_MENU
+				&kp GRAVE  &kp N1  	   &kp N2    	&kp N3    &kp N4    &kp N5         &kp N6     &kp N7    &kp N8    &kp N9	&kp N0    &kp DEL
+				&kp TILDE  &none   	   &kp LBRC  	&kp LBKT  &kp LPAR  &kp MINUS      &kp EQUAL  &kp RPAR  &kp RBKT  &kp RBRC	&kp BSLH  &kp PIPE
+				&bt BT_PRV &bt BT_NXT  &bt BT_CLR   &none     &none     &kp UNDER      &kp PLUS   &none     &trans    &trans	&trans    &trans
+											 		&kp LGUI  &trans    &trans         &trans     &trans    &kp C_MENU
 			>;
 		};
 		
